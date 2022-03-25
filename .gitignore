@@ -43,3 +43,4 @@ locale/*/software.po.time_stamp
 
 .byebug_history
 docker-compose.override.yml
+coverage

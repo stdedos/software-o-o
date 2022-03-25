@@ -89,6 +89,7 @@ GEM
     crass (1.0.6)
     dalli (3.2.1)
     digest (3.1.0)
+    docile (1.4.0)
     erubi (1.10.0)
     execjs (2.8.1)
     faker (2.20.0)
@@ -269,6 +270,12 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     singleton (0.1.1)
     sprockets (4.0.3)
       concurrent-ruby (~> 1.0)
@@ -337,6 +344,7 @@ DEPENDENCIES
   rubocop-rails
   sassc-rails
   selenium-webdriver
+  simplecov
   sprockets-rails
   terser
   vcr

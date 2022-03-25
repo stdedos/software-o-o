@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require 'simplecov'
+SimpleCov.start 'rails'
 
 require File.expand_path('../config/environment', __dir__)
 require 'rails/test_help'
